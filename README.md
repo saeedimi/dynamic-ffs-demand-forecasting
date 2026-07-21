@@ -1,4 +1,4 @@
-# FreshRetailNet-50K Forecasting with GPU XGBoost and Temporal Feature Selection
+# FreshRetailNet-50K Forecasting with XGBoost and Temporal Feature Selection
 
 A full-data demand-forecasting study on **FreshRetailNet-50K** that extends the published benchmark with GPU-accelerated XGBoost, evaluation-aligned temporal validation, Optuna hyperparameter optimization, and forward feature selection.
 
@@ -97,7 +97,7 @@ flowchart LR
     E --> F[Initial Optuna tuning]
     F --> G[Forward feature selection]
     G --> H[Final Optuna tuning with L1 and L2]
-    H --> I[Seven-day GPU XGBoost forecast]
+    H --> I[Seven-day  XGBoost forecast]
 ```
 
 ### Data and forecast setup
@@ -107,7 +107,7 @@ flowchart LR
 - **Official evaluation rows:** 350,000
 - **Forecast horizon:** seven days
 - **Primary comparison subset:** uncensored target days, matching the paper's forecasting evaluation logic
-- **Model:** XGBoost with GPU acceleration
+- **Model:** XGBoost 
 - **Validation:** evaluation-like temporal origin chunks rather than random row splits
 
 ### Causal feature engineering
@@ -275,7 +275,7 @@ hourly observed sales
 raw observed daily sales
 + causal engineered features
 + recent stockout indicators
-        -> GPU XGBoost forecasting
+        ->  XGBoost forecasting
 ```
 
 `stockout_roll_mean_14` tells XGBoost that recent observations may have been affected by stockouts, but it does not estimate the sales that would have occurred if inventory had remained available. The target therefore remains censored raw sales.
@@ -354,7 +354,7 @@ pytest
 python scripts/build_figures.py
 ```
 
-Then run either clean experiment notebook from top to bottom in a Colab GPU runtime.
+Then run either clean experiment notebook from top to bottom in a Colab  runtime.
 
 The complete search is computationally expensive because it evaluates:
 
@@ -407,5 +407,5 @@ See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) for the detailed discussion.
 
 - The FreshRetailNet-50K dataset is released under **CC BY 4.0** [2].
 - The official baseline repository is released under **Apache-2.0** [3].
-- This repository is an independent extension focused on GPU XGBoost, structured temporal validation, Optuna optimization, and forward-feature-selection ablations.
+- This repository is an independent extension focused on  XGBoost, structured temporal validation, Optuna optimization, and forward-feature-selection ablations.
 
