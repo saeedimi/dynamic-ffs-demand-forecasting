@@ -1,6 +1,6 @@
-# FreshRetailNet-50K Forecasting with Temporal GPU XGBoost
+# FreshRetailNet-50K Forecasting with Temporal  XGBoost
 
-An independent extension of the **FreshRetailNet-50K** benchmark that studies whether a carefully validated GPU XGBoost framework can forecast **raw, stockout-censored sales** competitively without reproducing the paper's latent-demand recovery stage.
+An independent extension of the **FreshRetailNet-50K** benchmark that studies whether a carefully validated  XGBoost framework can forecast **raw, stockout-censored sales** competitively without reproducing the paper's latent-demand recovery stage.
 
 ---
 
@@ -114,7 +114,7 @@ This repository asks a different but complementary question:
 
 > **How competitive can a carefully validated tabular machine-learning framework be when forecasting directly from raw recorded sales?**
 
-Instead of reproducing the paper's recovery stage, this work develops a GPU XGBoost forecasting framework with:
+Instead of reproducing the paper's recovery stage, this work develops a  XGBoost forecasting framework with:
 
 - causal feature engineering;
 - evaluation-aligned temporal cross-validation;
@@ -149,7 +149,7 @@ reset temporal chunks and CV after each accepted feature
 final Optuna tuning on selected features
 including L1 and L2 regularization
         ↓
-GPU XGBoost
+ XGBoost
         ↓
 official 7-day evaluation
 ```
@@ -221,7 +221,7 @@ censored hourly sales
 ```text
 censored raw daily sales
 → engineered predictors
-→ GPU XGBoost forecasting
+→  XGBoost forecasting
 ```
 
 `stockout_roll_mean_14` informs XGBoost that recent observed sales may have been affected by availability. It does **not** estimate the unobserved transactions that would have occurred during stockouts. The target remains raw recorded sales.
@@ -429,4 +429,4 @@ The dataset is downloaded directly from Hugging Face and is not redistributed in
 }
 ```
 
-The FreshRetailNet-50K dataset is released under **CC BY 4.0**. The official baseline repository is released under **Apache-2.0**. This repository is an independent extension focused on GPU XGBoost, temporal validation, Optuna optimization, and forward-feature-selection ablations.
+The FreshRetailNet-50K dataset is released under **CC BY 4.0**. The official baseline repository is released under **Apache-2.0**. This repository is an independent extension focused on  XGBoost, temporal validation, Optuna optimization, and forward-feature-selection ablations.
