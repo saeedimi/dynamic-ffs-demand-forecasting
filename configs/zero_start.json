@@ -1,0 +1,12 @@
+{
+  "experiment": "zero_start",
+  "series_limit": null,
+  "forecast_horizon": 7,
+  "cv_mode": "evaluation_like_temporal_chunks",
+  "cv_n_splits": 4,
+  "feature_selection_start": "empty_set_zero_features",
+  "feature_selection_acceptance_rule": "uploaded_notebook",
+  "xgb_device": "cuda",
+  "initial_optuna_trials": 30,
+  "final_optuna_trials": 300
+}

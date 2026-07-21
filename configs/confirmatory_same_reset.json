@@ -1,0 +1,13 @@
+{
+  "experiment": "zero_start_confirmatory",
+  "series_limit": null,
+  "forecast_horizon": 7,
+  "cv_mode": "evaluation_like_temporal_chunks",
+  "cv_n_splits": 4,
+  "feature_selection_start": "empty_set_zero_features",
+  "feature_selection_acceptance_rule": "same_reset_baseline",
+  "min_feature_improvement": 0.001,
+  "xgb_device": "cuda",
+  "reuse_initial_hyperparameters": true,
+  "note": "Evaluate the selected set and every candidate on the same reset before accepting the next feature."
+}

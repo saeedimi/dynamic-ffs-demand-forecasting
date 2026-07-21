@@ -1,0 +1,13 @@
+sales_group,source,model,target_or_recovery,wape_percent,wpe_percent
+Overall,Paper,SSA,Raw Sales,31.97,-10.5
+Overall,Paper,TFT,Raw Sales,31.75,-7.37
+Overall,Paper,DLinear,Raw Sales,31.56,-4.89
+Overall,Paper,TFT,TimesNet Recovery,29.02,2.58
+Low Sale,Paper,SSA,Raw Sales,38.33,-8.03
+Low Sale,Paper,TFT,Raw Sales,37.04,-1.72
+Low Sale,Paper,DLinear,Raw Sales,39.78,-1.03
+Low Sale,Paper,TFT,TimesNet Recovery,37.33,7.78
+High Sale,Paper,SSA,Raw Sales,27.4,-12.26
+High Sale,Paper,TFT,Raw Sales,27.95,-11.46
+High Sale,Paper,DLinear,Raw Sales,25.68,-7.63
+High Sale,Paper,TFT,TimesNet Recovery,23.03,0.87

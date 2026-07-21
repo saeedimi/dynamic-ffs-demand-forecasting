@@ -1,0 +1,40 @@
+{
+  "dataset": "Dingdong-Inc/FreshRetailNet-50K",
+  "series_count": 50000,
+  "train_rows": 4500000,
+  "evaluation_rows": 350000,
+  "forecast_horizon_days": 7,
+  "paper_comparable_subset": "uncensored_target_days",
+  "paper_comparable_rows": 206562,
+  "target": "raw recorded sales",
+  "timesnet_latent_demand_recovery_reproduced": false,
+  "experiments": {
+    "mandatory_start": {
+      "overall_wape_percent": 33.03055139675789,
+      "overall_wpe_percent": -5.132786644817857,
+      "selected_features": [
+        "horizon",
+        "seasonal_naive_7",
+        "sales_roll_mean_7",
+        "future_discount",
+        "future_holiday_flag",
+        "store_id"
+      ]
+    },
+    "zero_start": {
+      "overall_wape_percent": 29.957163269557775,
+      "overall_wpe_percent": -6.817528597057898,
+      "selected_features": [
+        "sales_roll_mean_7",
+        "store_id",
+        "rain_x_holiday",
+        "product_id",
+        "future_discount",
+        "stockout_roll_mean_14",
+        "sales_origin"
+      ]
+    }
+  },
+  "feature_selection_acceptance_rule": "uploaded_notebook",
+  "primary_claim": "Zero-start GPU XGBoost outperformed all reported raw-sales baselines on WAPE; it did not reproduce TimesNet latent-demand recovery and should not be presented as a replacement for that recovery stage."
+}

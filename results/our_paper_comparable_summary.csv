@@ -1,0 +1,7 @@
+sales_group,source,model,target_or_recovery,wape_percent,wpe_percent,mse,mae,rmse,n_rows,experiment
+Overall,This repository,GPU XGBoost — zero start,Raw Sales,29.9572,-6.8175,0.482409,0.370605,0.694557,206562,zero_start
+Low Sale,This repository,GPU XGBoost — zero start,Raw Sales,36.0995,-1.1541,0.123221,0.25331,0.351028,153208,zero_start
+High Sale,This repository,GPU XGBoost — zero start,Raw Sales,25.4965,-10.9304,1.513833,0.707421,1.230379,53354,zero_start
+Overall,This repository,GPU XGBoost — mandatory start,Raw Sales,33.0306,-5.1328,0.621138,0.408626,0.788123,206562,mandatory_start
+Low Sale,This repository,GPU XGBoost — mandatory start,Raw Sales,38.9377,3.1147,0.140701,0.273226,0.375101,153208,mandatory_start
+High Sale,This repository,GPU XGBoost — mandatory start,Raw Sales,28.740700000000004,-11.122300000000001,2.00073,0.797435,1.414472,53354,mandatory_start

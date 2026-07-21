@@ -1,0 +1,10 @@
+FreshRetailNet-50K XGBoost Temporal FFS
+Copyright 2026 Milad Saeedi
+
+This project uses the public FreshRetailNet-50K dataset and compares against values
+reported by the FreshRetailNet-50K paper and official baseline repository.
+
+Portions of the experimental notebooks are adapted from or informed by the official
+Dingdong-Inc/frn-50k-baseline project, licensed under Apache License 2.0. Modifications
+include GPU XGBoost forecasting, temporal cross-validation, Optuna tuning, and
+forward-feature-selection experiments.

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the original FreshRetailNet-50K paper."
+title: "FreshRetailNet-50K Forecasting with GPU XGBoost and Temporal Feature Selection"
+type: software
+authors:
+  - family-names: Saeedi
+    given-names: Milad
+version: 0.1.0
+date-released: 2026-07-20
+license: Apache-2.0
+repository-code: "https://github.com/YOUR_USERNAME/freshretailnet-xgboost-temporal-ffs"
+keywords:
+  - demand forecasting
+  - XGBoost
+  - temporal cross-validation
+  - feature selection
+  - retail

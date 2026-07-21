@@ -1,0 +1,97 @@
+experiment,sales_group,subset,horizon,n_rows,mse,neg_mse,wape,wpe,mae,rmse
+zero_start,Overall,all_target_days,overall,350000,0.482634,-0.482634,0.327854,-0.035606,0.391147,0.694718
+zero_start,Overall,all_target_days,1,50000,0.327126,-0.327126,0.312393,-0.015009,0.343489,0.57195
+zero_start,Overall,all_target_days,2,50000,0.353636,-0.353636,0.312179,-0.017388,0.345973,0.594673
+zero_start,Overall,all_target_days,3,50000,0.290567,-0.290567,0.309679,-0.016415,0.343502,0.539043
+zero_start,Overall,all_target_days,4,50000,0.47373,-0.47373,0.307116,-0.023301,0.417504,0.68828
+zero_start,Overall,all_target_days,5,50000,0.854284,-0.854284,0.332778,-0.117406,0.505905,0.924275
+zero_start,Overall,all_target_days,6,50000,0.453314,-0.453314,0.359215,0.005678,0.378237,0.673286
+zero_start,Overall,all_target_days,7,50000,0.625779,-0.625779,0.366171,-0.035572,0.403419,0.791062
+zero_start,Overall,uncensored_target_days,overall,206562,0.482409,-0.482409,0.299572,-0.068175,0.370605,0.694557
+zero_start,Overall,uncensored_target_days,1,29914,0.301678,-0.301678,0.284048,-0.034057,0.326491,0.549252
+zero_start,Overall,uncensored_target_days,2,31430,0.307437,-0.307437,0.288661,-0.031038,0.329128,0.55447
+zero_start,Overall,uncensored_target_days,3,33810,0.275816,-0.275816,0.291609,-0.026235,0.331713,0.525182
+zero_start,Overall,uncensored_target_days,4,32625,0.413401,-0.413401,0.282116,-0.047656,0.385138,0.642963
+zero_start,Overall,uncensored_target_days,5,25190,1.017548,-1.017548,0.32208,-0.158232,0.496852,1.008736
+zero_start,Overall,uncensored_target_days,6,27304,0.465501,-0.465501,0.307245,-0.071784,0.36074,0.682277
+zero_start,Overall,uncensored_target_days,7,26289,0.753384,-0.753384,0.327841,-0.113253,0.39165,0.867977
+zero_start,Low Sale,all_target_days,overall,255136,0.13868,-0.13868,0.375452,-0.019089,0.26818,0.372398
+zero_start,Low Sale,all_target_days,1,36448,0.112803,-0.112803,0.37463,-0.001043,0.24558,0.335861
+zero_start,Low Sale,all_target_days,2,36448,0.110187,-0.110187,0.369279,-0.008506,0.245562,0.331945
+zero_start,Low Sale,all_target_days,3,36448,0.113974,-0.113974,0.380455,0.000936,0.250472,0.3376
+zero_start,Low Sale,all_target_days,4,36448,0.17829,-0.17829,0.366048,-0.006408,0.297844,0.422245
+zero_start,Low Sale,all_target_days,5,36448,0.205435,-0.205435,0.362061,-0.091432,0.329576,0.45325
+zero_start,Low Sale,all_target_days,6,36448,0.119445,-0.119445,0.392855,0.01237,0.251661,0.345608
+zero_start,Low Sale,all_target_days,7,36448,0.130626,-0.130626,0.390747,-0.014018,0.256562,0.361422
+zero_start,Low Sale,uncensored_target_days,overall,153208,0.123221,-0.123221,0.360995,-0.011541,0.25331,0.351028
+zero_start,Low Sale,uncensored_target_days,1,22050,0.102879,-0.102879,0.361433,0.009256,0.235392,0.320748
+zero_start,Low Sale,uncensored_target_days,2,23125,0.101405,-0.101405,0.35877,0.008231,0.234867,0.318442
+zero_start,Low Sale,uncensored_target_days,3,24693,0.105283,-0.105283,0.370348,0.017016,0.240811,0.324473
+zero_start,Low Sale,uncensored_target_days,4,24011,0.149428,-0.149428,0.343157,-0.007573,0.274519,0.38656
+zero_start,Low Sale,uncensored_target_days,5,19283,0.179138,-0.179138,0.345625,-0.086472,0.30378,0.423247
+zero_start,Low Sale,uncensored_target_days,6,20297,0.112592,-0.112592,0.378923,0.004135,0.242626,0.335547
+zero_start,Low Sale,uncensored_target_days,7,19749,0.118371,-0.118371,0.380324,-0.016739,0.246457,0.34405
+zero_start,High Sale,all_target_days,overall,94864,1.407695,-1.407695,0.290994,-0.048396,0.721867,1.186463
+zero_start,High Sale,all_target_days,1,13552,0.903548,-0.903548,0.264556,-0.025744,0.606813,0.950551
+zero_start,High Sale,all_target_days,2,13552,1.008389,-1.008389,0.267787,-0.024294,0.616027,1.004186
+zero_start,High Sale,all_target_days,3,13552,0.765514,-0.765514,0.255705,-0.029647,0.593706,0.874937
+zero_start,High Sale,all_target_days,4,13552,1.268311,-1.268311,0.261501,-0.036377,0.739328,1.126193
+zero_start,High Sale,all_target_days,5,13552,2.599359,-2.599359,0.310096,-0.137524,0.980142,1.612253
+zero_start,High Sale,all_target_days,6,13552,1.351253,-1.351253,0.332408,0.000344,0.718661,1.162434
+zero_start,High Sale,all_target_days,7,13552,1.957489,-1.957489,0.347294,-0.052129,0.798391,1.399103
+zero_start,High Sale,uncensored_target_days,overall,53354,1.513833,-1.513833,0.254965,-0.109304,0.707421,1.230379
+zero_start,High Sale,uncensored_target_days,1,7864,0.859094,-0.859094,0.228547,-0.065121,0.581925,0.926873
+zero_start,High Sale,uncensored_target_days,2,8305,0.881127,-0.881127,0.237381,-0.05976,0.591595,0.938684
+zero_start,High Sale,uncensored_target_days,3,9117,0.737698,-0.737698,0.235179,-0.057233,0.577916,0.858894
+zero_start,High Sale,uncensored_target_days,4,8614,1.149208,-1.149208,0.235828,-0.078052,0.69348,1.072011
+zero_start,High Sale,uncensored_target_days,5,5907,3.75448,-3.75448,0.303868,-0.21374,1.12712,1.937648
+zero_start,High Sale,uncensored_target_days,6,7007,1.487765,-1.487765,0.258375,-0.123545,0.702877,1.21974
+zero_start,High Sale,uncensored_target_days,7,6540,2.670948,-2.670948,0.291745,-0.17963,0.830095,1.634304
+mandatory_start,Overall,all_target_days,overall,350000,0.603051,-0.603051,0.357292,-0.023876,0.426268,0.776564
+mandatory_start,Overall,all_target_days,1,50000,0.443599,-0.443599,0.343709,-0.049935,0.377921,0.666032
+mandatory_start,Overall,all_target_days,2,50000,0.473191,-0.473191,0.348996,-0.072013,0.386775,0.687889
+mandatory_start,Overall,all_target_days,3,50000,0.388861,-0.388861,0.342972,-0.024186,0.380431,0.623587
+mandatory_start,Overall,all_target_days,4,50000,0.64265,-0.64265,0.342242,0.007243,0.465256,0.801655
+mandatory_start,Overall,all_target_days,5,50000,0.970958,-0.970958,0.346731,-0.07134,0.527117,0.985372
+mandatory_start,Overall,all_target_days,6,50000,0.550107,-0.550107,0.389987,0.039661,0.410638,0.741692
+mandatory_start,Overall,all_target_days,7,50000,0.751993,-0.751993,0.395508,0.017242,0.43574,0.867176
+mandatory_start,Overall,uncensored_target_days,overall,206562,0.621138,-0.621138,0.330306,-0.051328,0.408626,0.788123
+mandatory_start,Overall,uncensored_target_days,1,29914,0.479376,-0.479376,0.323028,-0.0657,0.371296,0.69237
+mandatory_start,Overall,uncensored_target_days,2,31430,0.470103,-0.470103,0.325811,-0.078451,0.371486,0.68564
+mandatory_start,Overall,uncensored_target_days,3,33810,0.377031,-0.377031,0.324086,-0.034159,0.368657,0.614028
+mandatory_start,Overall,uncensored_target_days,4,32625,0.519998,-0.519998,0.313262,0.00332,0.427657,0.721109
+mandatory_start,Overall,uncensored_target_days,5,25190,1.131304,-1.131304,0.337045,-0.096599,0.519937,1.063628
+mandatory_start,Overall,uncensored_target_days,6,27304,0.601843,-0.601843,0.340354,-0.034143,0.399613,0.775786
+mandatory_start,Overall,uncensored_target_days,7,26289,0.933679,-0.933679,0.356592,-0.064696,0.425998,0.966271
+mandatory_start,Low Sale,all_target_days,overall,255136,0.157885,-0.157885,0.400944,0.009642,0.286388,0.397348
+mandatory_start,Low Sale,all_target_days,1,36448,0.123901,-0.123901,0.394076,-0.018926,0.258328,0.351996
+mandatory_start,Low Sale,all_target_days,2,36448,0.126677,-0.126677,0.393749,-0.048908,0.261834,0.355916
+mandatory_start,Low Sale,all_target_days,3,36448,0.129498,-0.129498,0.405421,0.015549,0.266908,0.359858
+mandatory_start,Low Sale,all_target_days,4,36448,0.218453,-0.218453,0.399836,0.034053,0.325336,0.467389
+mandatory_start,Low Sale,all_target_days,5,36448,0.226698,-0.226698,0.378011,-0.037598,0.344095,0.476128
+mandatory_start,Low Sale,all_target_days,6,36448,0.132732,-0.132732,0.421681,0.068668,0.270127,0.364324
+mandatory_start,Low Sale,all_target_days,7,36448,0.147239,-0.147239,0.423532,0.069189,0.278088,0.383718
+mandatory_start,Low Sale,uncensored_target_days,overall,153208,0.140701,-0.140701,0.389377,0.031147,0.273226,0.375101
+mandatory_start,Low Sale,uncensored_target_days,1,22050,0.113572,-0.113572,0.381251,0.00273,0.248299,0.337005
+mandatory_start,Low Sale,uncensored_target_days,2,23125,0.115198,-0.115198,0.379676,-0.020763,0.248552,0.339409
+mandatory_start,Low Sale,uncensored_target_days,3,24693,0.119721,-0.119721,0.396185,0.037738,0.257611,0.346007
+mandatory_start,Low Sale,uncensored_target_days,4,24011,0.183856,-0.183856,0.380757,0.054429,0.304598,0.428784
+mandatory_start,Low Sale,uncensored_target_days,5,19283,0.193681,-0.193681,0.365834,0.001057,0.321543,0.440092
+mandatory_start,Low Sale,uncensored_target_days,6,20297,0.127779,-0.127779,0.414956,0.076802,0.265698,0.357461
+mandatory_start,Low Sale,uncensored_target_days,7,19749,0.13617,-0.13617,0.419568,0.074714,0.271888,0.369012
+mandatory_start,High Sale,all_target_days,overall,94864,1.800322,-1.800322,0.323488,-0.049831,0.802475,1.341761
+mandatory_start,High Sale,all_target_days,1,13552,1.303425,-1.303425,0.304994,-0.07377,0.699568,1.141676
+mandatory_start,High Sale,all_target_days,2,13552,1.405138,-1.405138,0.314203,-0.089976,0.722805,1.185385
+mandatory_start,High Sale,all_target_days,3,13552,1.086414,-1.086414,0.295348,-0.054487,0.68575,1.042312
+mandatory_start,High Sale,all_target_days,4,13552,1.783526,-1.783526,0.297664,-0.013509,0.84157,1.335487
+mandatory_start,High Sale,all_target_days,5,13552,2.972639,-2.972639,0.322502,-0.097476,1.019355,1.724134
+mandatory_start,High Sale,all_target_days,6,13552,1.672635,-1.672635,0.364729,0.016545,0.788539,1.293304
+mandatory_start,High Sale,all_target_days,7,13552,2.378475,-2.378475,0.373981,-0.022662,0.859742,1.542231
+mandatory_start,High Sale,uncensored_target_days,overall,53354,2.00073,-2.00073,0.287407,-0.111223,0.797435,1.414472
+mandatory_start,High Sale,uncensored_target_days,1,7864,1.50506,-1.50506,0.28127,-0.114778,0.716169,1.226809
+mandatory_start,High Sale,uncensored_target_days,2,8305,1.458322,-1.458322,0.286413,-0.120645,0.713791,1.20761
+mandatory_start,High Sale,uncensored_target_days,3,9117,1.073943,-1.073943,0.272415,-0.085685,0.669419,1.036312
+mandatory_start,High Sale,uncensored_target_days,4,8614,1.456974,-1.456974,0.26208,-0.035435,0.770677,1.207052
+mandatory_start,High Sale,uncensored_target_days,5,5907,4.192112,-4.192112,0.314776,-0.172139,1.167581,2.047465
+mandatory_start,High Sale,uncensored_target_days,6,7007,1.975055,-1.975055,0.28949,-0.109786,0.787523,1.405366
+mandatory_start,High Sale,uncensored_target_days,7,6540,3.341938,-3.341938,0.313281,-0.160576,0.89137,1.828097

@@ -1,0 +1,14 @@
+experiment,selection_order,feature,status,meaning,caveat
+mandatory_start,1,horizon,forced,Forecast distance can shift expected accuracy and demand dynamics.,Can absorb horizon-specific bias rather than causal demand.
+mandatory_start,2,seasonal_naive_7,forced,Provides a weekly seasonal anchor.,Redundant when recent rolling demand and identities are present.
+mandatory_start,3,sales_roll_mean_7,forced,Recent weekly demand level.,Must be computed strictly before the origin.
+mandatory_start,4,future_discount,forced,Known promotion intensity affects future sales.,Requires promotion plan at forecast time.
+mandatory_start,5,future_holiday_flag,forced,Known calendar effect.,Its effect may be captured by interactions or recent history.
+mandatory_start,6,store_id,selected,"Persistent store-level scale, operations, and local customer mix.",Seen-store memorization; limited cold-start evidence.
+zero_start,1,sales_roll_mean_7,selected,Recent weekly demand level and local trend.,Must be causal.
+zero_start,2,store_id,selected,Persistent store-specific demand and operations.,Seen-store memorization.
+zero_start,3,rain_x_holiday,selected,Weather effects can differ on holidays.,Interaction may be sparse; future weather must be available.
+zero_start,4,product_id,selected,"Product-specific sales scale, seasonality, and purchasing pattern.",Seen-product memorization.
+zero_start,5,future_discount,selected,Planned discounts directly influence demand.,Requires known future promotion.
+zero_start,6,stockout_roll_mean_14,selected,Recent stockout pressure provides information about censoring and supply.,Conflates true demand and replenishment policy.
+zero_start,7,sales_origin,selected,Latest observed demand state.,Must be measured at origin without future leakage.

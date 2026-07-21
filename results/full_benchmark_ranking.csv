@@ -1,0 +1,19 @@
+sales_group,source,model,target_or_recovery,wape_percent,wpe_percent,mse,mae,rmse,n_rows,experiment,absolute_wpe_percent,wape_rank_within_group,absolute_bias_rank_within_group
+High Sale,Paper,TFT,TimesNet Recovery,23.03,0.87,,,,,,0.87,1.0,1.0
+High Sale,This repository,GPU XGBoost — zero start,Raw Sales,25.4965,-10.9304,1.513833,0.707421,1.230379,53354.0,zero_start,10.9304,2.0,3.0
+High Sale,Paper,DLinear,Raw Sales,25.68,-7.63,,,,,,7.63,3.0,2.0
+High Sale,Paper,SSA,Raw Sales,27.4,-12.26,,,,,,12.26,4.0,6.0
+High Sale,Paper,TFT,Raw Sales,27.95,-11.46,,,,,,11.46,5.0,5.0
+High Sale,This repository,GPU XGBoost — mandatory start,Raw Sales,28.740700000000004,-11.122300000000001,2.00073,0.797435,1.414472,53354.0,mandatory_start,11.122300000000001,6.0,4.0
+Low Sale,This repository,GPU XGBoost — zero start,Raw Sales,36.0995,-1.1541,0.123221,0.25331,0.351028,153208.0,zero_start,1.1541,1.0,2.0
+Low Sale,Paper,TFT,Raw Sales,37.04,-1.72,,,,,,1.72,2.0,3.0
+Low Sale,Paper,TFT,TimesNet Recovery,37.33,7.78,,,,,,7.78,3.0,5.0
+Low Sale,Paper,SSA,Raw Sales,38.33,-8.03,,,,,,8.03,4.0,6.0
+Low Sale,This repository,GPU XGBoost — mandatory start,Raw Sales,38.9377,3.1147,0.140701,0.273226,0.375101,153208.0,mandatory_start,3.1147,5.0,4.0
+Low Sale,Paper,DLinear,Raw Sales,39.78,-1.03,,,,,,1.03,6.0,1.0
+Overall,Paper,TFT,TimesNet Recovery,29.02,2.58,,,,,,2.58,1.0,1.0
+Overall,This repository,GPU XGBoost — zero start,Raw Sales,29.9572,-6.8175,0.482409,0.370605,0.694557,206562.0,zero_start,6.8175,2.0,4.0
+Overall,Paper,DLinear,Raw Sales,31.56,-4.89,,,,,,4.89,3.0,2.0
+Overall,Paper,TFT,Raw Sales,31.75,-7.37,,,,,,7.37,4.0,5.0
+Overall,Paper,SSA,Raw Sales,31.97,-10.5,,,,,,10.5,5.0,6.0
+Overall,This repository,GPU XGBoost — mandatory start,Raw Sales,33.0306,-5.1328,0.621138,0.408626,0.788123,206562.0,mandatory_start,5.1328,6.0,3.0

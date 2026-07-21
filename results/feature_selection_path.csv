@@ -1,0 +1,13 @@
+experiment,step,candidate_or_stage,mean_neg_mse,comparison_score,reported_improvement,accepted,note
+mandatory_start,0,mandatory_set,,,,True,Five features imposed before selection
+mandatory_start,1,store_id,-0.392641,,,True,First eligible addition
+mandatory_start,2,product_id,-0.403718,-0.392641,-0.011078,False,Stopped: no improvement
+zero_start,0,zero_feature_training_mean_baseline,-2.47315,,,True,Intercept-only reference
+zero_start,1,sales_roll_mean_7,-0.633997,-2.47315,1.839152,True,Accepted
+zero_start,2,store_id,-0.518563,-0.633997,0.115435,True,Accepted
+zero_start,3,rain_x_holiday,-0.474032,-0.518563,0.04453,True,Accepted
+zero_start,4,product_id,-0.419898,-0.474032,0.054134,True,Accepted
+zero_start,5,future_discount,-0.409156,-0.419898,0.010742,True,Accepted
+zero_start,6,stockout_roll_mean_14,-0.344232,-0.409156,0.064924,True,Accepted
+zero_start,7,sales_origin,-0.33457,-0.344232,0.009662,True,Accepted
+zero_start,8,sales_lag_14,-0.367219,-0.33457,-0.032649,False,Stopped: no improvement

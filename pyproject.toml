@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freshretailnet-xgboost-temporal-ffs"
+version = "0.1.0"
+description = "GPU XGBoost forecasting and temporal forward feature selection on FreshRetailNet-50K"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Milad Saeedi"}]
+dependencies = ["numpy>=1.23", "pandas>=1.5", "scikit-learn>=1.2", "xgboost>=2.0", "optuna>=3.0", "matplotlib>=3.7"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

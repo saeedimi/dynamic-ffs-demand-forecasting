@@ -1,0 +1,9 @@
+experiment,mse,neg_mse,wape,wpe,mae,rmse,label,fold_id,chunk_origin,chunk_start,chunk_end,n_train,n_validation,best_iteration
+zero_start,0.318122,-0.318122,0.322967,-0.033681,0.340313,0.564023,final_framework_fresh_evaluation_like_chunks,0,2024-05-14,2024-05-15,2024-05-21,700000,350000,335
+zero_start,0.371268,-0.371268,0.332232,-0.002046,0.350358,0.609318,final_framework_fresh_evaluation_like_chunks,1,2024-05-21,2024-05-22,2024-05-28,1050000,350000,73
+zero_start,0.357045,-0.357045,0.338421,0.025353,0.35397,0.597532,final_framework_fresh_evaluation_like_chunks,2,2024-06-04,2024-06-05,2024-06-11,1750000,350000,273
+zero_start,0.310479,-0.310479,0.322843,-0.010995,0.341484,0.557207,final_framework_fresh_evaluation_like_chunks,3,2024-06-11,2024-06-12,2024-06-18,2100000,350000,135
+mandatory_start,0.408134,-0.408134,0.340949,0.005504,0.35955,0.638854,final_framework_fresh_evaluation_like_chunks,0,2024-05-21,2024-05-22,2024-05-28,1050000,350000,82
+mandatory_start,0.352829,-0.352829,0.337719,0.029962,0.350276,0.593994,final_framework_fresh_evaluation_like_chunks,1,2024-05-28,2024-05-29,2024-06-04,1400000,350000,83
+mandatory_start,0.403415,-0.403415,0.360271,0.037498,0.376824,0.635149,final_framework_fresh_evaluation_like_chunks,2,2024-06-04,2024-06-05,2024-06-11,1750000,350000,69
+mandatory_start,0.365624,-0.365624,0.344149,-0.006755,0.36402,0.604668,final_framework_fresh_evaluation_like_chunks,3,2024-06-11,2024-06-12,2024-06-18,2100000,350000,84
